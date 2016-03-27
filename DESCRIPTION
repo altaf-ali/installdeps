@@ -4,9 +4,7 @@ Title: RStudio Addin to install missing dependencies
 Version: 0.1.0
 Author: Altaf Ali
 Maintainer: Altaf Ali <altaf@fastmail.com>
-Description: This addin scans the current R script and installs any
-  dependencies that the script requires but are not installed. You can
-  install this package from github using devtools:
+Description: This addin scans the current R script and installs any dependencies that are not installed. You can install this package from github using devtools:
     devtools::install_github("altaf-ali/installdeps")
 License: GPL (>= 2)
 Imports:
