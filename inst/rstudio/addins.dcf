@@ -1,0 +1,4 @@
+Name: Install Dependencies
+Description: Install all dependencies in the current R script.
+Binding: install_dependencies
+Interactive: false
