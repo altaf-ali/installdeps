@@ -1,4 +1,9 @@
+Name: Check Dependencies
+Description: check all dependencies in the current R script.
+Binding: check_dependencies
+Interactive: true
+
 Name: Install Dependencies
 Description: Install all dependencies in the current R script.
 Binding: install_dependencies
-Interactive: false
+Interactive: true
