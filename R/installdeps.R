@@ -4,7 +4,7 @@ install_dependencies <- function(check = FALSE) {
     doc <- rstudioapi::getActiveDocumentContext()
     installed_packages <- row.names(installed.packages())
     for (s in doc$contents) {
-      m <- stringr::str_match(s, "library\\((.*)\\)")
+      m <- stringr::str_match(s, "^\\s*?library\\((.*)\\)\\s*$")
       package_name <- stringr::str_trim(m[1,2])
       if (is.na(package_name) || (package_name %in% installed_packages))
         next
